@@ -1,0 +1,4 @@
+From java:11
+Expose 8090
+ADD /target/Candidate-0.0.1-SNAPSHOT.jar Candidate.jar
+ENTRYPOINT ["java","-jar","Candidate.jar"]
